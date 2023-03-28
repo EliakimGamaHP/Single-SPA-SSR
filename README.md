@@ -12,7 +12,7 @@ This project requires a version of NodeJS that supports the --experimental-loade
 
 Also, this project can only work correctly when the yarn.lock file is respected when installing dependencies. To do this you can install yarn or use npm@>=7
 
-Another point to note is the version of Node you are using, as this project uses Webpack 4, so it will only be compatible with versions lower than Node 16. If you are using a higher version of Node, you can install NVM ( https://github.com/coreybutler/nvm-windows/releases) to downgrade and control the versions to be used, here (https://www.treinaweb.com.br/blog/instalando-e-gerenciando- various-versions-of-node-js-with-nvm) is a tutorial showing how to do this.
+Another point to note is the version of Node you are using, as this project uses Webpack 4, so it will only be compatible with versions lower than Node 16. If you are using a higher version of Node, you can install NVM ( https://github.com/coreybutler/nvm-windows/releases) to downgrade and control the versions to be used, here (https://www.treinaweb.com.br/blog/instalando-e-gerenciando-varias-versoes-do-node-js-com-nvm) is a tutorial showing how to do this.
 
 1) Install yarn on all the Microfrontends you want to run (yarn install)
 2) Run the desired MFEs with the command (yarn start)
