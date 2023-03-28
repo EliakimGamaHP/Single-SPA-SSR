@@ -21,8 +21,10 @@ Another point to note is the version of Node you are using, as this project uses
 
 Now open the root configuration in a browser at http://localhost:9000 . Run the following in the browser console:
 
+'''
 localStorage.setItem('devtools', true);
 window.location.reload();
+'''
 
 You should now see the Import Map Override UI, which is a yellowish rectangle at the bottom right of the webpage. Click the rectangle, then click @isomorphic-mf/pokemons. Set the URL to the port number ( 8000) noted earlier. Now do the same for @isomorphic-mf/pokemons/. If you want to see other MFEs, just replace the /pokemons and /pokemons/ route with the desired MFE address.
 
